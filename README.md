@@ -1,18 +1,23 @@
-# Paydcroll Management System (Java)
+# 💼 Java Payroll Management System
 
-This is a basic Java-based Payroll System using Object-Oriented Programming principles.
+This is a simple Java-based Payroll System demonstrating Object-Oriented Programming concepts such as inheritance, interfaces, and polymorphism. It supports Full-Time, Part-Time, and Intern employee types.
 
-## 🛠 Features
+## 📁 Project Structure
+
+- **PayrollManagement package**: Contains core classes and logic.
+- **Company package**: Contains the main driver class to execute the payroll system.
+
+## 🔧 Features
 - Interface-based salary calculation
-- Inheritance and polymorphism
-- Employee types: Full-Time, Part-Time, Intern
-- Organized into Java packages
+- Package and class hierarchy
+- OOP concepts: inheritance, polymorphism, method overriding
 
-## 📂 Packages
-- `PayrollManagement`: Core logic and employee types
-- `Company`: Main class to execute the system
+## 🛠 Technologies
+- Java (CLI)
+- No external dependencies
 
-## 🔧 How to Run
-1. Compile all files:
-   ```bash
-   javac Company/CompanyMain.java
+## 📌 How to Run
+
+```bash
+javac Company/CompanyMain.java
+java Company.CompanyMain
